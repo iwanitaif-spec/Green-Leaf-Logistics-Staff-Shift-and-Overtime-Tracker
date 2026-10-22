@@ -28,6 +28,6 @@ Syar          | role
 Iwani         | role
 
 ## Checklist
--[ ]  Add staff records
--[ ]  View staff records
--[ ]  View summary and ranking
+- [ ]  Add staff records
+- [ ]  View staff records
+- [ ]  View summary and ranking
