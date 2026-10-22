@@ -20,7 +20,12 @@ Green Leaf Logistics is a small delivery company operating across Brunei. As the
 members: Dina, Mira, Syar, Iwani
 
 ## Team Roles Table
-Member Name 
+Member Name   | Role
+------------- | -------------
+Dina          | role
+Mira          | role
+Syar          | role
+Iwani         | role
 
 ## Checklist
 -[ ]  Add staff records
