@@ -10,7 +10,9 @@ Green Leaf Logistics is a small delivery company operating across Brunei. As the
     3. View payroll summary and ranking
     4. Exit
 2. Enter the number with action you wish to proceed with
-3. When choosing (1)
+3. When choosing  $${\color{blue}\1. Add staff records{small  blue subtext}}$$
+ keep entering to add more staff and type end when all staff information are entered
+4. 
 
 ## Team Roles Table
 
