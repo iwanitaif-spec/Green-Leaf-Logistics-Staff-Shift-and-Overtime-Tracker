@@ -28,6 +28,14 @@ Syar          | role
 Iwani         | role
 
 ## Checklist
-- [x]  Add staff records
-- [ ]  View staff records
-- [ ]  View summary and ranking
+Menu-driven (Add / View current / View summary / Exit)
+
+☐ Input validation (rejects negative/excess hours)
+
+☐ View current staff records (raw, unsorted)
+
+☐ Payroll calculation with overtime rule (1.5x beyond 40 hrs)
+
+☐ Manually coded sort
+
+☐ Formatted summary output (total, average, ranking
