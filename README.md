@@ -30,8 +30,8 @@ Iwani         | role
 ## Checklist
 Menu-driven (Add / View current / View summary / Exit)
 
--[ ]Input validation (rejects negative/excess hours)
--[ ]View current staff records (raw, unsorted)
--[ ]Payroll calculation with overtime rule (1.5x beyond 40 hrs)
--[ ]Manually coded sort
--[ ]Formatted summary output (total, average, ranking
+-[ ] Input validation (rejects negative/excess hours)
+-[ ] View current staff records (raw, unsorted)
+-[ ] Payroll calculation with overtime rule (1.5x beyond 40 hrs)
+-[ ] Manually coded sort
+-[ ] Formatted summary output (total, average, ranking
