@@ -2,8 +2,6 @@
 
 Green Leaf Logistics is a small delivery company operating across Brunei. As the company has  grown, its HR and Payroll teams are struggling to manage staff shift records and weekly pay  calculations. Currently, staff hours are tracked on paper timesheets, causing missing entries and  calculation errors.
 
-## Group info
-members: Dina, Mira, Syar, Iwani
 
 ## How to run the program
 
@@ -18,7 +16,13 @@ members: Dina, Mira, Syar, Iwani
 4. End action before choosing the next step
 5. Press 4 to fully stop the code
 
-## Team Roles Table
+## Group info
+members: Dina, Mira, Syar, Iwani
 
+## Team Roles Table
+Member Name 
 
 ## Checklist
+- [ ] Add staff records
+- [ ] View staff records
+- [ ] View summary and ranking
