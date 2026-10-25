@@ -5,7 +5,7 @@ Green Leaf Logistics is a small delivery company operating across Brunei. As the
 Group Information 
 |      |      |      |      |
 | :--- | :--- | :--- | :--- |
-| **Group no.** | B11 | **Team leader:** | Nur Iwani Taqia binti Haji Abdul Taif |
+| **Group no.** | B11 | **Team leader:** | Nur Iwani Taqiah binti Haji Abdul Taif |
 | **Group size** |<ul><li>[x] 4 members</li><li>[ ] 5 members</li></ul> | **Submission date** | 25 Oct 2026 |
 
 ## Prerequisites
