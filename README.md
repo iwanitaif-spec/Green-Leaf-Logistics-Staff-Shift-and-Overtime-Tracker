@@ -33,7 +33,7 @@ IDLE is included by default with the official Python installer.
 ## Step 2: Save Your Program File
 
 1. Create a dedicated folder on your computer named `GreenLeafTracker`.
-2. Save your code inside that folder as a Python script file named **`tracker.py`**.
+2. Save the code which is the file named **'Tracker code'** the other file aside from the **'README.md'** inside that folder as a Python script file named *`tracker.py`*.
 
 ---
 
