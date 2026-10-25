@@ -6,7 +6,7 @@ Group Information
 |      |      |      |      |
 | :--- | :--- | :--- | :--- |
 | **Group no.** | B11 | **Team leader:** | Nur Iwani Taqia binti Haji Abdul Taif |
-| **Group size** |[x] 4 members<br> [ ] 5 members | **Submission date** | 25 Oct 2026 |
+| **Group size** |<ul><li>[x] 4 members</li><li>[ ] 5 members</li></ul> | **Submission date** | 25 Oct 2026 |
 
 ## Prerequisites
 Download Python3.14 on your pc
