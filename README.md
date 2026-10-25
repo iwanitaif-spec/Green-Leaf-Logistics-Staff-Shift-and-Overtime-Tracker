@@ -33,7 +33,7 @@ IDLE is included by default with the official Python installer.
 ## Step 2: Find Your Program File Copy Your Script
 
 1. Create a dedicated folder on your computer named `GreenLeafTracker`.
-2. copy raw code of the file named **'tracker code'** the other file alongside from this **'README.md'**, by pressing on the copy icon on the bar above the file, alternatively **'ctrl+a'** the **ctrl+c'**
+2. copy raw file named **'tracker code'** the other file alongside from this **'README.md'**, by pressing on the copy icon on the bar above the file, alternatively **'ctrl+a'** the **ctrl+c'**
 ---
 
 ## Step 3: Open, Save and Run Code  in Python IDLE
