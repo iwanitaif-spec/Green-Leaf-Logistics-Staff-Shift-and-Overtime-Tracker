@@ -15,13 +15,13 @@ def calculatePay(hours):
 
 
 def addStaff(staffNames, staffHours, staffPay, staffCounter):
-    name = input("Enter staff name (or 'end' to finish): ")
+    name = input("\nEnter staff name (or 'end' to finish): ")
 
     while name != "end" and staffCounter < maxStaff:
 
         if name == "":
             print("Error: Staff name cannot be empty.")
-            name = input("Enter staff name (or 'end' to finish): ")
+            name = input("\nEnter staff name (or 'end' to finish): ")
             continue
 
         hoursText = input("Enter hours worked: ")
@@ -57,7 +57,7 @@ def addStaff(staffNames, staffHours, staffPay, staffCounter):
 
             if validHours == 0:
                 print("Invalid hours. Enter a number greater than 0 and not more than 80.")
-                hoursText = input("Enter hours worked: ")
+                hoursText = input("\nEnter hours worked: ")
 
         hours = float(hoursText)
         pay = calculatePay(hours)
@@ -74,7 +74,7 @@ def addStaff(staffNames, staffHours, staffPay, staffCounter):
             print("Maximum number of staff records reached.")
             break
 
-        name = input("Enter staff name (or 'end' to finish): ")
+        name = input("\nEnter staff name (or 'end' to finish): ")
 
     return (staffCounter)
 
@@ -90,6 +90,12 @@ def viewStaff(staffNames, staffHours, staffPay, staffCounter):
             print("Name:", staffNames[a])
             print("Hours worked:", staffHours[a])
             print("Pay: $", format(staffPay[a], ".2f"))
+
+            if staffHours[a] <= 40:
+                print("Status: Standard hours")
+            else:
+                print("Status: Overtime")
+
             print("----------------------------------------")
 
 
@@ -153,6 +159,64 @@ def viewSummary(staffNames, staffHours, staffPay, staffCounter):
             print("----------------------------------------")
 
 
+def searchStaff(staffNames, staffHours, staffPay, staffCounter):
+    if staffCounter == 0:
+        print("No staff records available.")
+    else:
+        name = input("\nEnter staff name to search: ")
+        found = 0
+
+        while found == 0 and name != "end":
+            for a in range(staffCounter):
+                if staffNames[a] == name:
+                    print("\nStaff member found!")
+                    print("Name:", staffNames[a])
+                    print("Hours worked:", staffHours[a])
+                    print("Pay: $", format(staffPay[a], ".2f"))
+                    found = 1
+                    break
+
+            if found == 0:
+                print("Staff member not found.")
+                name = input("Enter staff name to search again (or 'end' to return to menu): ")
+
+        if name == "end":
+            print("Returning to main menu.")
+
+
+def earnerSpotlight(staffNames, staffPay, staffCounter):
+    if staffCounter == 0:
+        print("No staff records available.")
+    else:
+        highestPay = staffPay[0]
+        lowestPay = staffPay[0]
+
+        for a in range(1, staffCounter):
+            if staffPay[a] > highestPay:
+                highestPay = staffPay[a]
+
+            if staffPay[a] < lowestPay:
+                lowestPay = staffPay[a]
+
+        print("\nHIGHEST AND LOWEST EARNER SPOTLIGHT")
+        print("----------------------------------------")
+
+        print("Highest earner(s):")
+        for a in range(staffCounter):
+            if staffPay[a] == highestPay:
+                print("Name:", staffNames[a])
+                print("Pay: $", format(staffPay[a], ".2f"))
+
+        print("----------------------------------------")
+        print("Lowest earner(s):")
+        for a in range(staffCounter):
+            if staffPay[a] == lowestPay:
+                print("Name:", staffNames[a])
+                print("Pay: $", format(staffPay[a], ".2f"))
+
+        print("----------------------------------------")
+
+
 staffNames = [""] * maxStaff
 staffHours = [0] * maxStaff
 staffPay = [0] * maxStaff
@@ -160,12 +224,14 @@ staffPay = [0] * maxStaff
 staffCounter = 0
 choice = ""
 
-while choice != "4":
+while choice != "6":
     print("\nGREEN LEAF LOGISTICS")
     print("1. Add staff records")
     print("2. View staff records")
     print("3. View payroll summary and ranking")
-    print("4. Exit")
+    print("4. Search staff by name")
+    print("5. Highest/lowest earner spotlight")
+    print("6. Exit")
 
     choice = input("Enter your choice: ")
 
@@ -181,9 +247,14 @@ while choice != "4":
         viewSummary(staffNames, staffHours, staffPay, staffCounter)
 
     elif choice == "4":
+        searchStaff(staffNames, staffHours, staffPay, staffCounter)
+
+    elif choice == "5":
+        earnerSpotlight(staffNames, staffPay, staffCounter)
+
+    elif choice == "6":
         print("Thank you for using Green Leaf Logistics.")
 
     else:
-        print("Invalid choice. Please enter 1, 2, 3 or 4.")
-
+        print("Invalid choice. Please enter 1, 2, 3, 4, 5 or 6.")
 
