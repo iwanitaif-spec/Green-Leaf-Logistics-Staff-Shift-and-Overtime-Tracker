@@ -3,10 +3,10 @@
 Green Leaf Logistics is a small delivery company operating across Brunei. As the company has  grown, its HR and Payroll teams are struggling to manage staff shift records and weekly pay  calculations. Currently, staff hours are tracked on paper timesheets, causing missing entries and  calculation errors.
 
 Group Information 
-
-**-----------------|----------------------------------| ------------------| -------------**
-Group no.        | B11                              |Team leader:       | Nur Iwani Taqia                            |                                  |                   | binti Haji Abdul Taif    
-Group size       | - [x] 4 members - [ ] 5 members  |  submussion date  | 25 oct 2026 
+| Maklumat | Butiran | Maklumat | Butiran |
+| :--- | :--- | :--- | :--- |
+| **Group no.** | B11 | **Team leader:** | Nur Iwani Taqia binti Haji Abdul Taif |
+| **Group size** | [x] 4 members<br>[ ] 5 members | **Submission date** | 25 Oct 2026 |
 
 ## Prerequisites
 Download Python3.14 on your pc
