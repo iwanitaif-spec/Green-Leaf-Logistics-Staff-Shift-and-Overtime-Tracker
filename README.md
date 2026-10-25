@@ -30,20 +30,18 @@ IDLE is included by default with the official Python installer.
 
 ---
 
-## Step 2: Save Your Program File
+## Step 2: Find Your Program File
 
 1. Create a dedicated folder on your computer named `GreenLeafTracker`.
-2. copy raw code of the file named **'tracker code'** the other file alongside from this **'README.md'** you will have downloaded the text file automatically as **'tracker code.txt'** 
-3. Save  **'tracker code,txt'**  into the `GreenLeafTracker` folder
+2. copy raw code of the file named **'tracker code'** the other file alongside from this **'README.md'**
 ---
 
-## Step 3: Open and Run Code in Python IDLE
-
-Instead of using the Command Prompt or Terminal, you can run the application entirely within Python's graphical interface:
+## Step 3: Open, Save and Run Code  in Python IDLE
 
 ### 1. Open the File in IDLE
-* **Windows:** Right-click your `tracker.py` file, hover over **Open with**, and select **IDLE (Python 3.x)**. Alternatively, search for "IDLE" in your Start Menu, open it, click **File > Open**, and select your script.
-* **macOS:** Open your **Applications** folder, click the **Python 3.x** folder, and double-click **IDLE**. Once open, go to the top menu and select **File > Open** to open your `tracker code.txt` script.
+* **Windows:** Open **IDLE (Python 3.x)**. Alternatively, search for "IDLE" in your Start Menu, open it, click **File > New**, and paste your **'tracker code'** copied script.
+* **macOS:** Open your **Applications** folder, click the **Python 3.x** folder, and double-click **IDLE**. Once open, go to the top menu and select **File > New** paste the copied **'tracker code'**.
+*  save the code as **'trackercode.py'**
 
 ### 2. View the Code Window
 A new window will open displaying your Python source code code (showing your variables like `standardRate = 25.00` and functions like `calculatePay`).
