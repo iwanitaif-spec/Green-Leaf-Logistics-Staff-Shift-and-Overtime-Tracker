@@ -15,11 +15,14 @@ Enter the number corresponding to your desired task and press `Enter`:
 * `3` - View payroll summary and ranking
 * `4` - Exit
 
-2. Enter the number with action you wish to proceed with
-3. When choosing  $${\color{blue}\1. Add staff records{small blue subtext}}$$
+### Step 2: Data Input Guide
+When selecting option **1 (Add staff records)**, the program will prompt you sequentially for employee details. 
+* **Required Inputs:** You will be prompted to enter the Employee Name, Regular Hours Worked, and Overtime Hours Worked.
+* **Continuous Entry:** The program will loop to allow multiple entries. Type `end` when you are finished inputting all staff information to return to the main menu.
+
+### Step 3: Closing the Application
+Always choose option **4** from the main menu to properly stop the terminal execution loop and safely exit the code.
  keep entering to add more staff and type end when all staff information are entered
-4. End action before choosing the next step
-5. Press 4 to fully stop the code
 
 ## Group info
 members: Dina, Mira, Syar, Iwani
