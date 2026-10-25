@@ -8,11 +8,13 @@ Download Python3.14 on your pc
 
 ## How to run the program
 
-1. Choose which action you wanna proceed with
-    \1.Addstaffrecordssmallbluesubtext
-    2. View staff records
-    3. View payroll summary and ranking
-    4. Exit
+### Step 1: Select an Action
+Enter the number corresponding to your desired task and press `Enter`:
+* `1` - Add staff records
+* `2` - View staff records
+* `3` - View payroll summary and ranking
+* `4` - Exit
+
 2. Enter the number with action you wish to proceed with
 3. When choosing  $${\color{blue}\1. Add staff records{small blue subtext}}$$
  keep entering to add more staff and type end when all staff information are entered
