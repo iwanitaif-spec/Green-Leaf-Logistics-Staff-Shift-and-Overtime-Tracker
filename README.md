@@ -74,7 +74,7 @@ Always choose option **4** from the main menu to properly stop the terminal exec
 ## Team role
  Member Name                                       | Roll number       | Main components Built
 -------------------------------------------------- | ------------------| -------------
-Nur Syarifah Syahirah Binti Asmady                 | B20250183         | Enhancement Option B,                                                         |                                                                        |                   |input validation
+Nur Syarifah Syahirah Binti Asmady                 | B20250183         | Enhancement Option B, input validation       
 Dk Nur Majdina Safwanah Bte Pg Shahrin             | B20250220         | Menu,staff record view
 Nur Amirah Rashidah Binti Abdullah Mohammad Azlan  | B20250304         | Payroll Calculation
 Nur Iwani Taqiah binti Haji Abdul Taif             | B20250214         | ReadMe Markdown, Sort
