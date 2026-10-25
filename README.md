@@ -9,7 +9,7 @@ Download Python3.14 on your pc
 ## How to run the program
 
 1. Choose which action you wanna proceed with
-    1. Add staff records
+    \1.Addstaffrecordssmallbluesubtext
     2. View staff records
     3. View payroll summary and ranking
     4. Exit
