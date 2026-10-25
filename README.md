@@ -42,10 +42,10 @@ Syar          | role
 Iwani         | role
 
 ## Checklist
-Menu-driven (Add / View current / View summary / Exit)
+Menu-driven (Add / View current / View summary / Search / Spotlight / Exit)
 
-- [ ] Input validation (rejects negative/excess hours)
-- [ ] View current staff records (raw, unsorted)
-- [ ] Payroll calculation with overtime rule (1.5x beyond 40 hrs)
-- [ ] Manually coded sort
-- [ ] Formatted summary output (total, average, ranking
+- [x] Input validation (rejects negative hours, hours over 80, empty names, and non-numeric inputs)
+- [x] View current staff records (raw, unsorted in entry order with standard/overtime status)
+- [x] Payroll calculation with overtime rule (1.5x beyond 40 hrs: $25.00 standard / $37.50 overtime)
+- [x] Manually coded sort (nested loop bubble sort shifting names, hours, and pay synchronously)
+- [x] Formatted summary output (total staff, total payroll cost, average hours, and descending hours ranking)
