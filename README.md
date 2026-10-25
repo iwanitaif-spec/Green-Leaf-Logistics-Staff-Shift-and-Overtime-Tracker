@@ -25,7 +25,13 @@ Always choose option **4** from the main menu to properly stop the terminal exec
  keep entering to add more staff and type end when all staff information are entered
 
 ## Group info
-members: Dina, Mira, Syar, Iwani
+ Member Name                                       | Roll number       | Program Area
+-------------------------------------------------- | ------------------| -------------
+Nur Syarifah Syahirah Binti Asmady                 | B20250183         | Bachelor of Business (Honours) Major in Marketing Information Systems
+Dk Nur Majdina Safwanah Bte Pg Shahrin             | B20250183         | Bachelor of Business (Honours) Major in Marketing Information Systems
+Nur Amirah Rashidah Binti Abdullah Mohammad Azlan  | B20250304         | Bachelor of Business (Honours) Major in Marketing Information Systems
+Nur Iwani Taqiah binti Haji Abdul Taif             | B20250214         | Bachelor of Business (Honours) Major in Marketing Information Systems
+
 
 ## Team Roles Table
 Member Name   | Role
